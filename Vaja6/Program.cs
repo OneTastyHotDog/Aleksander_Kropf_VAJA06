@@ -21,13 +21,14 @@ namespace vaja6 {
             stIg++;
         }
 
+		// dobi ID
         public int Id {
             get
             {
                 return id;
             }
         }
-
+        // pridobi ime in ga nastavi        
         public string U_ime {
             get
             {
@@ -39,6 +40,7 @@ namespace vaja6 {
             }
         }
 
+		//pridobi in nastavi geslo
         public string U_geslo
         {
             get
@@ -51,6 +53,7 @@ namespace vaja6 {
             }
         }
 
+		//pridobi stevilo igralcov
         public static int StIg
         {
             get { return stIg; }
