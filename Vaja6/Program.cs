@@ -21,6 +21,20 @@ namespace vaja6 {
             stIg++;
         }
 
+  public Igralec(string u_ime, string u_geslo, int stIg, int id)
+   {
+       this.u_ime = u_ime;
+       this.u_geslo = u_geslo;
+       this.id =  Igralec.stIg;
+       stIg++;
+   }
+   public Igralec(Igralec Igr)
+   {
+      u_ime = Igr.u_ime;
+      u_geslo = Igr.u_geslo;
+       id = Igr.id;
+       stIg++;
+   }
 		// dobi ID
         public int Id {
             get
